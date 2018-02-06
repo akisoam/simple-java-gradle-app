@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SimpleJavaGradleApp.iml" filepath="$PROJECT_DIR$/.idea/modules/SimpleJavaGradleApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SimpleJavaGradleApp_main.iml" filepath="$PROJECT_DIR$/.idea/modules/SimpleJavaGradleApp_main.iml" group="SimpleJavaGradleApp" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SimpleJavaGradleApp_test.iml" filepath="$PROJECT_DIR$/.idea/modules/SimpleJavaGradleApp_test.iml" group="SimpleJavaGradleApp" />
+    </modules>
+  </component>
+</project>
