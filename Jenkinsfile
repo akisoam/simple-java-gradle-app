@@ -1,10 +1,15 @@
 pipeline {
-	agent any
+	agent {
+		slave
     stages {
+	    
         stage('Build') {
             steps {
-				sh './gradle build'
+		    
+				sh './gadlew clean build'
             }
+	}
+	    
 		}
 		
 	}
