@@ -1,15 +1,16 @@
 pipeline {
-	agent {
-		slave
+    agent {
+		slave {
+			image 'gradle:alpine'
+	
+		}
+	}
+    
     stages {
-	    
         stage('Build') {
             steps {
-		    
-				sh './gadlew clean build'
+				sh 'gradle clean build'
             }
-	}
-	    
 		}
 		
 	}
